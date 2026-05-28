@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio academico de Henry Flores, estudiante de Desarrollo Web FullStack en Cibertec.">
+  <title>Henry Flores | Portafolio Cibertec</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegacion principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">HF</span>
+        <span>Henry Flores</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+
+      <ul class="nav-menu" id="main-menu">
+        <li><a href="#sobre-mi">Sobre mi</a></li>
+        <li><a href="#cursos">Cursos</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#descargas">Descargas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Portafolio academico y profesional</p>
+        <h1>Henry Flores</h1>
+        <p class="hero-lead">
+          Estudiante de Desarrollo Web FullStack en Cibertec, enfocado en desarrollo web,
+          Java, SQL, GitHub y proyectos academicos con vision profesional.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-secondary" href="#descargas">Descargar archivos</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Resumen del perfil">
+        <img class="hero-visual" src="assets/img/portfolio-visual.svg" alt="Ilustracion de escritorio tecnologico con codigo y tarjetas academicas">
+        <div>
+          <span class="panel-label">Ubicacion</span>
+          <strong>Lima, Peru</strong>
+        </div>
+        <div>
+          <span class="panel-label">Perfil</span>
+          <strong>FullStack Web</strong>
+        </div>
+        <div>
+          <span class="panel-label">Enfoque</span>
+          <strong>Java, SQL, GitHub</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="section-heading">
+        <p class="eyebrow">Sobre mi</p>
+        <h2>Construyendo bases solidas para proyectos reales</h2>
+      </div>
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>Perfil academico</h3>
+          <p>
+            Soy estudiante de Desarrollo Web FullStack en Cibertec. Me interesa crear
+            soluciones claras, ordenadas y faciles de mantener, combinando programacion,
+            bases de datos y buenas practicas de documentacion.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Intereses tecnicos</h3>
+          <p>
+            Trabajo con HTML, CSS, JavaScript, Java, SQL Server, Git y GitHub. Este sitio
+            organiza mis avances por curso y facilita compartir materiales con mi equipo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="cursos">
+      <div class="section-heading">
+        <p class="eyebrow">Cursos Cibertec</p>
+        <h2>Contenido organizado por asignatura</h2>
+      </div>
+
+      <div class="search-box">
+        <label for="portfolio-search">Buscar cursos o proyectos</label>
+        <input type="search" id="portfolio-search" placeholder="Ejemplo: Java, EFSRT, SQL, arquitectura...">
+      </div>
+
+      <div class="card-grid">
+        <article class="course-card filter-item" data-keywords="5358 algoritmos estructura datos java poo interfaces graficas archivos alva rosa rivera benito">
+          <span class="course-code">5358</span>
+          <h3>Algoritmos y Estructura de Datos</h3>
+          <p class="teacher">Docente: Alva Rosa Rivera Benito</p>
+          <p>Proyectos Java, ejercicios de POO, interfaces graficas, estructuras de datos y archivos descargables.</p>
+        </article>
+
+        <article class="course-card filter-item" data-keywords="5367 arquitectura entornos web html css javascript mapas sitio responsive damaso lopez aragon">
+          <span class="course-code">5367</span>
+          <h3>Arquitectura de Entornos Web</h3>
+          <p class="teacher">Docente: Damaso Lopez Aragon</p>
+          <p>Proyectos HTML, CSS, JavaScript, mapas de sitio, estructura web, diseno responsivo y archivos descargables.</p>
+        </article>
+
+        <article class="course-card filter-item" data-keywords="5398 habilidades profesionales cv perfil profesional plan personal exposicion milagros yvon cubas changa">
+          <span class="course-code">5398</span>
+          <h3>Desarrollo de Habilidades Profesionales III</h3>
+          <p class="teacher">Docente: Milagros Yvon Cubas Changa</p>
+          <p>CV, perfil profesional, plan personal, documentos de exposicion y archivos descargables.</p>
+        </article>
+
+        <article class="course-card filter-item" data-keywords="5589 efsrt experiencia formativa trabajo diagnostico objetivos smart cronograma evidencias informes bitacoras enrique mancilla ramirez">
+          <span class="course-code">5589</span>
+          <h3>Experiencia Formativa en Situacion Real de Trabajo</h3>
+          <p class="teacher">Docente: Enrique Mancilla Ramirez</p>
+          <p>Proyecto EFSRT, diagnostico, justificacion, objetivos SMART, cronograma, evidencias, informes y bitacoras.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="section-heading">
+        <p class="eyebrow">Proyectos destacados</p>
+        <h2>Trabajos academicos con enfoque practico</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card filter-item" data-keywords="cyberplay react jsx css javascript tienda videojuegos gaming comunidad navegacion">
+          <div class="project-topline">
+            <h3>CYBERPLAY</h3>
+            <span>Web</span>
+          </div>
+          <p>Proyecto web tipo tienda de videojuegos con interfaz oscura tipo gaming, tarjetas de juegos, comunidad y navegacion.</p>
+          <p class="tech-list">React | JSX | CSS | JavaScript</p>
+          <a class="btn btn-small" href="#" aria-label="Ver proyecto CYBERPLAY">Ver proyecto</a>
+        </article>
+
+        <article class="project-card filter-item" data-keywords="ciberbook sql server entidad relacion normalizacion consultas publicaciones comentarios moderacion">
+          <div class="project-topline">
+            <h3>CIBERBOOK</h3>
+            <span>Base de datos</span>
+          </div>
+          <p>Plataforma digital de publicaciones, comentarios y moderacion modelada desde base de datos.</p>
+          <p class="tech-list">SQL Server | Modelo ER | Normalizacion | Consultas SQL</p>
+          <a class="btn btn-small" href="#" aria-label="Ver proyecto CIBERBOOK">Ver proyecto</a>
+        </article>
+
+        <article class="project-card filter-item" data-keywords="interfaces java eclipse windowbuilder poo ejercicios academicos interfaces graficas">
+          <div class="project-topline">
+            <h3>Interfaces Java</h3>
+            <span>Java</span>
+          </div>
+          <p>Ejercicios academicos con Java orientado a objetos e interfaces graficas para practicar logica y eventos.</p>
+          <p class="tech-list">Java | Eclipse | WindowBuilder</p>
+          <a class="btn btn-small" href="#" aria-label="Ver proyecto Interfaces Java">Ver proyecto</a>
+        </article>
+
+        <article class="project-card filter-item" data-keywords="proyecto efsrt html css javascript documentacion tecnica evidencias proceso real simulado">
+          <div class="project-topline">
+            <h3>Proyecto EFSRT</h3>
+            <span>Documentacion</span>
+          </div>
+          <p>Solucion tecnologica orientada a mejorar un proceso real o simulado, con informes y evidencias.</p>
+          <p class="tech-list">HTML | CSS | JavaScript | Documentacion tecnica</p>
+          <a class="btn btn-small" href="#" aria-label="Ver proyecto EFSRT">Ver proyecto</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section downloads" id="descargas">
+      <div class="section-heading">
+        <p class="eyebrow">Descargas para companeros</p>
+        <h2>Archivos Word y PDF por curso</h2>
+      </div>
+
+      <div class="download-grid">
+        <article class="download-card filter-item" data-keywords="5358 algoritmos estructura datos alva rosa rivera benito proyecto algoritmos pdf word java">
+          <span class="course-code">5358</span>
+          <h3>Algoritmos y Estructura de Datos</h3>
+          <p class="teacher">Docente: Alva Rosa Rivera Benito</p>
+          <p>Materiales de proyectos Java, POO, interfaces graficas y estructuras de datos.</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="assets/docs/algoritmos/proyecto-algoritmos.pdf" download>Descargar PDF</a>
+            <a class="btn btn-secondary" href="assets/docs/algoritmos/proyecto-algoritmos.docx" download>Descargar Word</a>
+          </div>
+        </article>
+
+        <article class="download-card filter-item" data-keywords="5367 arquitectura entornos web damaso lopez aragon proyecto arquitectura pdf word html css javascript">
+          <span class="course-code">5367</span>
+          <h3>Arquitectura de Entornos Web</h3>
+          <p class="teacher">Docente: Damaso Lopez Aragon</p>
+          <p>Materiales sobre estructura web, mapas de sitio, diseno responsivo y frontend.</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="assets/docs/arquitectura-web/proyecto-arquitectura-web.pdf" download>Descargar PDF</a>
+            <a class="btn btn-secondary" href="assets/docs/arquitectura-web/proyecto-arquitectura-web.docx" download>Descargar Word</a>
+          </div>
+        </article>
+
+        <article class="download-card filter-item" data-keywords="5398 habilidades profesionales milagros yvon cubas changa cv perfil plan personal pdf word">
+          <span class="course-code">5398</span>
+          <h3>Desarrollo de Habilidades Profesionales III</h3>
+          <p class="teacher">Docente: Milagros Yvon Cubas Changa</p>
+          <p>Documentos de CV, perfil profesional, plan personal y exposiciones academicas.</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="assets/docs/habilidades-profesionales/cv-perfil-profesional.pdf" download>Descargar PDF</a>
+            <a class="btn btn-secondary" href="assets/docs/habilidades-profesionales/plan-personal.docx" download>Descargar Word</a>
+          </div>
+        </article>
+
+        <article class="download-card filter-item" data-keywords="5589 efsrt experiencia formativa enrique mancilla ramirez informe bitacora pdf word objetivos smart evidencias">
+          <span class="course-code">5589</span>
+          <h3>Experiencia Formativa en Situacion Real de Trabajo</h3>
+          <p class="teacher">Docente: Enrique Mancilla Ramirez</p>
+          <p>Informes, diagnostico, objetivos SMART, cronograma, evidencias y bitacoras.</p>
+          <div class="download-actions">
+            <a class="btn btn-primary" href="assets/docs/efsrt/informe-efsrt.pdf" download>Descargar PDF</a>
+            <a class="btn btn-secondary" href="assets/docs/efsrt/bitacora-efsrt.docx" download>Descargar Word</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="section-heading">
+        <p class="eyebrow">Contacto</p>
+        <h2>Conectemos para proyectos academicos y profesionales</h2>
+      </div>
+      <div class="contact-box">
+        <p>Disponible para colaborar en proyectos web, documentacion tecnica, bases de datos y trabajos de equipo.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:henry.flores@example.com">Escribirme</a>
+          <a class="btn btn-secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="current-year"></span> Henry Flores. Portafolio publicado con GitHub Pages.</p>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
